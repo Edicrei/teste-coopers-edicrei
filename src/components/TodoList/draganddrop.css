@@ -1,0 +1,127 @@
+  .drag-n-drop {
+
+    gap: .5rem;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, 300px);
+    align-items: start;
+    
+  }
+  .dnd-group {
+    min-height: 60px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: .5rem;
+  }
+  .dnd-item {
+    display: none;
+    background-color: #e2e2e2;
+    
+  }
+  .dnd-item {
+    display: flex;
+    flex-direction: row;
+    
+
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    min-height: 50px;
+    min-width: 330px;
+    align-items: left;
+    background-color: #cfcfcf00;
+    border-radius: 5px;
+    color: #282c34;
+    
+  }
+
+  .dnd-item:not(:last-of-type) {
+    display: flex;
+    flex-direction: row;
+   
+  }
+  .dnd-item * {  
+    margin: 0;
+    
+
+  }
+  .group-title {
+    text-align: left;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+  }
+  .current {
+
+    background-color: #dddddd;
+    align-items: center;
+    
+  }
+  
+[id^='delete'] {
+    height: 36px;
+    width: 64px;
+    margin: 0;
+
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+
+    background-color: #FFFFFF00;
+    color: #FFFFFF00;
+  }
+
+  
+  [id^='delete']:hover{
+    background-color: #ffffff00;
+    color: #999999;
+  }
+
+  input[type=checkbox] {
+    display: none;
+  }
+
+[id^=task]  {
+    height: 32px;
+    width: 220px;
+    border: #FFFFFF00 solid 0px;
+    background-color: #FFFFFF00;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+[id^=task]:focus { 
+    outline: none !important;
+    border-color: #00000000;
+    color: #E38D3F;
+}
+
+
+label::before {
+    content: url("../../assets/Ellipse.png");
+}
+
+:checked+label:before {
+    content: url("../../assets/confirm.png");
+}
+
+.checkboxDone:checked+label:before {
+    content: url("../../assets/Vector.png");
+}
+
+label {
+    margin: 22px;
+    height: 24px;
+    padding-left: 24px;
+  }

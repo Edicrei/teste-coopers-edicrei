@@ -1,0 +1,275 @@
+/*ToDo*/
+
+h2{
+  margin: 0px;
+  color: #FFFFFF;
+
+}
+
+
+#ToDoTitle{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 60px;
+
+  
+
+    /* identical to box height, or 100% */
+    
+    
+    color: #FFFFFF;
+
+    
+  }
+
+  
+  #BG2 {
+  
+    /* identical to box height, or 100% */
+    color: #FFFFFF;
+    background: #000000;
+    position: absolute;
+
+    top: -41.9px;
+    left: -20px;
+    right: -40px;
+    bottom: -20px;
+    width: 110%;
+    height: 322px;
+    transform: rotate(-4deg);
+  
+    
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  
+  #BG2Limit {
+    display: block;
+    width: 20%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  #ToDoScreen {
+    scroll-margin-block-start: 20px;
+    scroll-margin-block-end: 200px;
+    min-height: 1060px;
+    max-height: inherit;
+    margin-bottom: 68px;
+    background-image: url('../../assets/leftBG.png');
+    background-repeat: no-repeat;
+    background-position: left ;
+    background-position-y: 300px;
+    
+  }
+  #title {
+    padding-top: 30px;
+    width: 600px;
+    align-items: center;
+    text-align: center;
+
+
+    
+  }
+  
+  #line1 {
+    background-color: #4AC959;
+    width: 297px;
+    height: 4px;
+    margin-top: 24px;
+    margin-left: 156px;
+    
+
+  }
+  
+  #subtitle {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    width: 600px;
+  }
+  
+  .ToDos {
+    margin: 158px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    /*title*/
+    height: inherit;
+    max-height: inherit;
+    
+    width: 802px;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+
+  }
+  
+  .ToDoLeft {
+    display: table;
+    width: 382.85px;
+    height: 20px;
+    background-color: #E88D39;
+    box-shadow: 0px 4px 12px rgba(0.258, 0.258, 0.258, 0.094);
+    margin-bottom: 20px;
+  }
+  
+  .ToDoLeftContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: auto;
+    background-color: #FFFFFF;
+    
+    align-items: center;
+    align-content: center;
+  }
+  
+  #ToDoContent {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    color:#000000;
+    height: inherit;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+  
+  #ToDoContent img {
+    margin-right: 17px;
+    margin-left: 30px;
+  }
+  
+  #ToDoContent p{
+    margin: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+  }
+
+  
+  .space {
+    padding-bottom: 36px;
+  }
+  
+  .ToDoRight {
+    display: table;
+    height: 20px;
+    width: 382.85px;
+    background-color: #4AC959;
+    box-shadow: 0px 4px 12px rgba(0.258, 0.258, 0.258, 0.094);
+    margin-bottom: 200px;
+  }
+  .ToDoRightContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: auto;
+    background-color: #FFFFFF;
+
+    align-items: center;
+    
+  }
+  
+  .ToDoRight div h3, .ToDoLeft div h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  
+  .ToDoRight div h4, .ToDoLeft div h4 {
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    align-items: center;
+    color: #000;
+  }
+  
+  .ToDoRight div h4 strong {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+  }
+  
+  .eraseBnt{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+  
+    width: 302px;
+    height: 64px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 28px;
+    color: #FFFFFF;
+  }
+
+  #add {
+    background-color: #00000000;
+    color: #E88D39;
+    height: 24px;
+    width: 24px;
+    font: 1.4em sans-serif;
+    border: none;
+    margin-top: 12px;
+    margin-left: 24px;
+    margin-bottom: 0px;
+  }
+  .eraseBnt {
+    background-color: #000000;
+    border: 0px;
+  }
+
+  #eraseBntRight{
+    margin-top: 65px;
+  }
+
+  
+  
+  @media screen and (max-width: 830px) {
+    #ToDoTitle, #subtitle {
+
+
+     transform: scale(0.5);
+    }
+    .ToDos {
+      display: flex;
+      flex-direction: column;
+      
+      width: 382.85px;
+      
+    }
+  
+  }
+  
+  

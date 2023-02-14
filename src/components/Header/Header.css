@@ -1,0 +1,41 @@
+.App-logo {
+    pointer-events: none;
+  }
+  
+  .App-header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 89vw;
+    height: 50px;
+    
+  
+    margin-top: 54px;
+    z-index: 2;
+  
+  }
+  
+  .App-link {
+    color: #4AC959;
+  }
+  
+
+  button {
+    font-family: 'Montserrat'
+  }
+  
+  button:hover {
+    background: #4AC959;
+  }
+
+  .userStatus {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  @media screen and (max-width: 1140px) {
+    .App-header {
+        height: 40px;
+    }
+  }

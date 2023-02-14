@@ -1,0 +1,205 @@
+/*GetInTouch*/
+
+#GetInTouch {
+    height: 910px;
+    width: inherit;
+  
+}
+  #GetInTouch img{ 
+    z-index: 1;
+
+  }
+  
+  .GetInTouchDiv {
+    background-color: #f8040448;
+    height: 721px;
+    width: inherit;
+    margin-bottom: 38px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    border-radius: 10px;
+  }
+  
+  #side{
+    position: relative;
+    width: 166px;
+    height: 23px;
+    padding-top: 23px;
+    background-color: #46BD62;
+    left: -84px;
+    top: -104px;
+    
+  }
+  
+  .GetInTouch{
+    background-color: #FFFFFF;
+    height: inherit;
+    width: inherit;
+    position: relative;
+    top: -104px;
+    box-shadow: 0px 8px 16px rgba(6, 21, 43, 0.08);
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 4px;
+  }
+  
+  .GetInTouch h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    
+    /* Cor 06 */
+    
+    color: #06152B;
+    margin:0;
+  }
+  
+  .GetInTouch h3 strong {
+    font-weight: 700;
+    margin: 0px;
+    
+  }
+  
+  .iconGetIn {
+    display: flex;
+    margin-top: 87px;
+    margin-bottom: 45px;
+    height: 60px;
+    width: 60px;
+    
+  }
+  
+  #titleGetIn {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    
+  }
+  
+  form h6 {
+    /* h6 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    margin-top: 24px;
+    margin-bottom: 12px;
+    
+    /* Cor 06 */
+    color: #06152B;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  form div div{
+    display: flex;
+    flex-direction: column;
+  }
+  .email {
+    margin-right: 24px;
+  }
+  
+  [id^=input], #message {
+    width: calc(100% - 22px);
+    height: 50px;
+  
+    padding-left: 16px;
+    
+  
+  
+    background: #FFFFFF;
+    /* Cor 06 */
+  
+    border: 1px solid #06152B;
+    border-radius: 4px;
+  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+  }
+  
+  .GetInTouch img {
+    margin-right: 24px;
+    
+    height: 60px;
+  }
+  
+  #message {
+    height: 150px;
+    resize: none;
+    padding-top: 18px;
+    
+
+  }
+  
+  #sendMsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+    margin-top: 40px;
+    margin-bottom: 60px;
+  
+    width: 700px;
+    height: 52px;
+    
+    background-color: #46BD62;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 4px;
+  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    /* Shadow 01 */
+    filter: drop-shadow(0px 16px 24px rgba(6, 21, 43, 0.12));
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  @media screen and (max-width: 830px) {
+
+      
+  .GetInTouch{
+    background-color: #FFFFFF;
+
+    width: 75vw;
+    position: relative;
+    top: -104px;
+    box-shadow: 0px 8px 16px rgba(6, 21, 43, 0.08);
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 4px;
+  }
+
+  #sendMsg {
+    width: 75vw;
+  }
+
+  }

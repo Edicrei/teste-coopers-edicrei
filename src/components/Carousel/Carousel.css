@@ -1,0 +1,90 @@
+/*Carousel*/
+
+#carousel {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    scroll-snap-align: start;
+    
+    
+  }
+  
+  #carousel h2 {
+    text-align: left;
+    
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-bottom: 48px;
+  
+  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+  }
+
+  #BGCarousel {
+    display: flex;
+    flex-direction: column;
+    width: 1080px;
+    height: 520px;
+    background-color: #4AC959;
+    border-radius: 10px;
+    margin: 0;
+  }
+
+
+
+  #BGCarouselbase  {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    margin-left: 230px;
+    top: -350px;
+    width: 1230px;
+    height: 300px;
+    padding-left: 80px;
+    
+  }
+
+  #BGCarousel3  {
+    display: flex;
+    width: 2270px;
+    height: 520px;
+    /*background-color: rgba(255, 0, 0, 0.5);*/
+    padding-left: 80px;
+
+    
+  }
+
+  #pagination {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ /* overflow-x: scroll;
+ */
+
+ @media screen and (max-width: 830px) {
+
+  #BGCarouselbase {
+    margin-left: 0;
+  }
+  #carousel {
+    width: 100%;
+    transform: scale(0.5);
+  }
+  #carousel h2 {
+    text-align: center;
+    padding-left: 0px;
+  }
+  
+  #BGCarousel {
+    margin-left: 0;
+  }
+  #pagination {
+    justify-content: center;
+  }
+
+ }
